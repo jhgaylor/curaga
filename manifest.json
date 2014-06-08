@@ -1,0 +1,8 @@
+{
+    "name": "MyUniquePackage",
+    "version": "0.1",
+    "files": {
+        ".bash_profile": "~/.bash_profile",
+        ".vimrc": "~/.vimrc"
+    }
+}

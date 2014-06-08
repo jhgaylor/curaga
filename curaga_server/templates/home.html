@@ -1,0 +1,37 @@
+<h1>Welcome to Curaga!</h1>
+<p>This application is intended to be used in two ways</p>
+<ul>
+    <li>To create/upload packages using the curaga client library.</li>
+    <li>To download/install packages using curl</li>
+</ul>
+
+<h2>To create a package:</h2>
+<p>Download curaga and use --help</p>
+
+<h2>To download a package:</h2>
+<p>At a shell do "curl http://localhost:8000/package/<package_name> | /bin/sh".  This will download the .zip, unzip it to ~/.curaga_packages, backup any files the package contains, and makes sym links to the files in the package</p>
+
+<p>Reserved urls:</p>
+<ul>
+    <li>/</li>
+    <li>/upload</li>
+    <li>/package/<slug></li>
+    <li>/auth/register</li>
+</ul>
+
+<p>TODO:</p>
+<ul>
+    <li>write the documentation (this page!)</li>
+    <li>write the install script</li>
+    <li>write the uninstaller (in the client library?)</li>
+    <li>figure out a name (curaga?)</li>
+    <li>style this page</li>
+    <li>TODO's from source code</li>
+    <li>open source</li>
+    <li>deploy somewhere</li>
+    <li>get hardcoded values out
+        <ul>
+            <li>media url</li>
+        </ul>
+    </li>
+</ul>
